@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(188, 218, 218);
+    padding: 20px;
+}
+#Ye{
+    color:blue;
+    font-family: monospace;
+}
+img{
+    width: 500px;
+    Border: 5px double rgb(58, 87, 58);
+
+}
+a:hover {
+    color: #11baaf;
+  }
+
+  p{
+    font-family:sans-serif;
+  }
+
+ .su{
+    color:rgb(154, 5, 10);
+
+  }
+  #to{
+    color: blueviolet;
+    font-family: monospace;
+
+  }
+  #ja{
+    color:darkgreen;
+    font-family: monospace;
+
+  }
