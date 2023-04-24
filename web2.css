@@ -1,0 +1,243 @@
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+	font-family: Arial, sans-serif;
+
+}
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+
+  /* Header styles */
+  header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  header nav {
+    margin-bottom: 20px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-image {
+    background-image: url('images/homura.jpg');
+    background-size: cover;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+  }
+
+/* Header styles */
+/* Profile Section Styles */
+.profile {
+	background-color: #eee;
+	padding: 50px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.profile-info {
+	flex: 1;
+	margin-right: 50px;
+}
+
+.profile-info h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.profile-info p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.profile-img {
+	flex: 1;
+}
+
+.profile-img img {
+	width: 100%;
+	height: auto;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+	background-color: #fff;
+	padding: 50px;
+}
+
+.testimonials h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.testimonial {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.testimonial img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 20px;
+}
+
+.testimonial-info {
+	flex: 1;
+}
+
+.testimonial-info h3 {
+	font-size: 24px;
+	margin-bottom: 0,5rem;
+}
+
+.testimonial-info p {
+font-size: 18px;
+line-height: 1.5;
+}
+
+/* Comics Section Styles */
+.comics {
+background-color: #eee;
+padding: 50px;
+}
+
+.comics h2 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+
+.comic {
+display: flex;
+align-items: center;
+margin-bottom: 30px;
+}
+
+.comic img {
+width: 150px;
+height: 225px;
+object-fit: cover;
+margin-right: 20px;
+}
+
+.comic-info {
+flex: 1;
+}
+
+.comic-info h3 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.comic-info p {
+font-size: 18px;
+line-height: 1.5;
+}
+
+/* Footer Styles */
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+margin-top: 50px;
+}
+
+footer p {
+font-size: 18px;
+line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+.banner-text h1 {
+font-size: 36px;
+}
+
+.banner-text p {
+	font-size: 18px;
+}
+
+.profile {
+	flex-direction: column;
+}
+
+.profile-info {
+	margin-right: 0;
+	margin-bottom: 50px;
+}
+
+.profile-img {
+	margin-bottom: 50px;
+}
+
+.testimonial {
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.testimonial img {
+	margin-bottom: 10px;
+}
+
+.comic {
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.comic img {
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+}
