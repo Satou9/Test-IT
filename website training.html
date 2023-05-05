@@ -1,26 +1,150 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Homura Akemi - Mahou Shoujo Profile</title>
-    <link rel="stylesheet" href="web.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Opinions</a></li>
-        </ul>
-      </nav>
-      <h1>Homura Akemi</h1>
-      <div class="hero-image"></div>
-    </header>
-    
 
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homura Akemi</title>
+  <link rel="stylesheet" href="websitetraing2.css">
+</head>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <a href="#" class="logo"><img src="homura-logo.png" alt="Homura Akemi Logo"></a>
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#comics">Comics</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <img src="homura-banner.jpg" alt="Homura Akemi Banner">
+      <div class="container">
+        <h1>Homura Akemi</h1>
+        <h3>"I will never stop fighting. I will never give up."</h3>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <section id="profile">
+      <div class="container">
+        <div class="profile-info">
+          <div class="profile-img">
+            <img src="homura-profile.jpg" alt="Homura Akemi Profile Picture">
+          </div>
+          <div class="profile-text">
+            <h2>Profile</h2>
+            <p>Homura Akemi is a magical girl and one of the main characters of the anime series Puella Magi Madoka Magica. Originally a shy and introverted girl, Homura made a wish to go back in time and relive the same month over and over again, hoping to save her friend Madoka from a terrible fate. Throughout the series, Homura shows incredible determination and strength, even when faced with seemingly impossible odds.</p>
+          </div>
+        </div>
+      </div>
+    </section>
     
-    <footer>
-      <p>&copy; 2023 Homura Akemi Fan Club</p>
+    <section id="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+          <div class="testimonial-img">
+            <img src="testimonial-1.jpg" alt="Testimonial 1">
+          </div>
+          <div class="testimonial-text">
+            <h3>John Doe</h3>
+            <p>"Homura Akemi is one of the strongest magical girls I have ever seen. Her dedication and resolve are truly inspiring."</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-img">
+            <img src="testimonial-2.jpg" alt="Testimonial 2">
+          </div>
+          <div class="testimonial-text">
+            <h3>Jane Smith</h3>
+            <p>"I have always admired Homura Akemi for her unwavering determination. She is truly a role model for us all."</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-img">
+            <img src="testimonial-3.jpg" alt="Testimonial 3">
+          </div>
+          <div class="testimonial-text">
+            <h3>Bob Johnson</h3>
+            <p>"Homura Akemi is an incredible magical girl, with amazing powers and an unbreakable spirit. I am honored to have fought alongside her."</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-img">
+            <img src="testimonial-4.jpg" alt="Testimonial" 4>          
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comics" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title">Comics</h2>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="comic-item">
+              <div class="comic-image">
+                <img src="https://via.placeholder.com/350x500.png?text=Comic+Image+1" alt="Comic Image 1">
+              </div>
+              <div class="comic-details">
+                <h3 class="comic-title">Title of Comic 1</h3>
+                <p class="comic-date">Date of Release</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="comic-item">
+              <div class="comic-image">
+                <img src="https://via.placeholder.com/350x500.png?text=Comic+Image+2" alt="Comic Image 2">
+              </div>
+              <div class="comic-details">
+                <h3 class="comic-title">Title of Comic 2</h3>
+                <p class="comic-date">Date of Release</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="comic-item">
+              <div class="comic-image">
+                <img src="https://via.placeholder.com/350x500.png?text=Comic+Image+3" alt="Comic Image 3">
+              </div>
+              <div class="comic-details">
+                <h3 class="comic-title">Title of Comic 3</h3>
+                <p class="comic-date">Date of Release</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>&copy; 2023 Homura Akemi Fan Site</p>
+          </div>
+        </div>
+      </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="main.js"></script>
   </body>
 </html>
+
