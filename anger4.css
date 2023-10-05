@@ -1,7 +1,6 @@
 /* Root element */
   
 :root {
-    --primary-color: #a60061;
     --secondary-color: #eaeaea;
     --font-family: Arial, sans-serif;
   }
@@ -22,42 +21,9 @@ body{
 	margin: 0;
 	padding: 0;
 }
-  /* Header *//*
+  /* Header */
 
-header {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 20px;
-    text-align: center;
-    margin: 0;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 48px;
-    font-weight: bold;
-  }
-  
-  header nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  header nav a {
-    color: var(--secondary-color);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 24px;
-    padding: 10px;
-    margin: 0 10px;
-  }
-  
-  header nav a:hover {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-  }*/
-  header {
+    header {
     background-image: url('images/nyanpasu_.gif');
     background-size: cover;
     background-position: center;
@@ -74,7 +40,7 @@ header {
   }
   
   header h1 {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -161,155 +127,7 @@ header {
   .profile-info p {
     font-size: 18px;
   }
-  
-  
-  /* Header *//*
-  
-  header {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 32px;
-    font-weight: bold;
-  }
-  
-  header nav {
-    display: flex;
-    gap: 20px;
-  }
-  
-  header nav a {
-    color: var(--secondary-color);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 10px;
-  }
-  
-  header nav a:hover {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-  }
-  
-  /* Mobile styles */
-  /* Navigation Bar Styles *//*
-nav {
-	height: 50px;
-	
-}
-
-nav ul {
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	height: 50px
-}
-
-nav a {
-	font-size: 30px;
-	text-decoration: none;
-}
-
-nav a:hover {
-	text-decoration: underline;
-}
-
-/* Header Banner Styles *//*
-.banner {
-	position: relative;
-}
-
-.banner img {
-	width: var(---size-100-procent);
-	height: 650px;
-	object-fit: cover;
-	filter: brightness(50%);
-}
-
-.banner-text {
-	position: absolute;
-	top: var(---size-50-procent);
-	left: var(---size-50-procent);
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
-
-.banner-text h1 {
-	font-size: 65px;
-
-}
-
-.banner-text p {
-	font-size: 30px;
-}
-
-  
-  /* Hero *//*
-  
-  #hero {
-    text-align: center;
-    background-color: var(--secondary-color);
-    padding: 20px;
-  }
-
-    #hero h1 {
-        font-size: 36px;
-        margin-top: 0;
-      }
-      
-      #hero p {
-        font-size: 18px;
-        margin-bottom: 20px;
-      }
-      
-      #hero img {
-        width: 100%;
-        height: 650px;
-        object-fit: cover;
-        filter: brightness(50%);
-      }
-      
-      /* Profile *//*
-      
-      .profile-grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 20px;
-      }
-      
-      .profile-img {
-        flex-basis: 40%;
-        margin-right: 20px;
-      }
-      
-      .profile-img img {
-        max-width: 100%;
-        height: auto;
-      }
-      
-      .profile-info {
-        flex-basis: 55%;
-      }
-      
-      .profile-info h3 {
-        font-size: 24px;
-        margin-top: 0;
-      }
-      
-      .profile-info p {
-        font-size: 18px;
-      }
-      
-      /* Testimonials */
+  /*Testionial*/
       
       .testimonial-grid {
         display: grid;
@@ -374,6 +192,9 @@ nav a:hover {
       
       @media screen and (min-width: 768px) {
         /* Header */
+        .header-bg p {
+          font-size: 18px;
+        }
         header h1 {
           font-size: 48px;
         }
@@ -415,6 +236,8 @@ nav a:hover {
         
         /* Comics */
         .comic-grid {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+
           justify-content: center;
         }
         
